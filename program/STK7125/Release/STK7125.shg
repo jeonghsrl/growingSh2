@@ -1,0 +1,5 @@
+-cpu=sh2
+-output="C:\Documents and Settings\Administrator\デスクトップ\Omnipen2ComuAll\omnipen2Comu\STK7125\Release\STK7125.lib"
+-noinline
+-gbr=auto
+-head=runtime,new,ctype,stdio,stdlib

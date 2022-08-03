@@ -1,0 +1,29 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"4.0" 
+[WORKSPACE_DETAILS]
+"STK7125" "C:\WorkSpace\shc\STK7125" "C:\WorkSpace\shc\STK7125\STK7125.hws" "SuperH RISC engine" "Hitachi SuperH Standard" 
+[SHARED_WORKSPACE_CONTROL_STATUS]
+"" "" "" 
+"" "" "" 
+[PROJECTS]
+"STK7125" "C:\WorkSpace\shc\STK7125\STK7125" "C:\WorkSpace\shc\STK7125\STK7125\STK7125.hwp" 0 
+[INFORMATION]
+"No workspace information available" 
+[SCRAP]
+[PROJECT_DEPENDENCY]
+[WORKSPACE_PROPERTIES]
+[VCS]
+"" "" "" 0 
+[VCS_PROJECT]
+[HELP_FILES]
+"c:\hew\8_0\tools\renesas\sh\8_0_0\hew\stdlib.hlp" "C/C++ Standard Library Help" 1 
+[GENERAL_DATA_PROJECT]
+[SYSMENUTOOLS]
+"Hitachi Mapview" "1.0" 
+"Hitachi Call Walker" "1.1" 
+"Hitachi H Series Librarian Interface" "1.1" 
+[USERMENUTOOLS]
+[CUSTOMPLACEHOLDERS]
+[END]

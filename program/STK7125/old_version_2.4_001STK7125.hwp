@@ -1,0 +1,417 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"2.4" 
+[PROJECT_DETAILS]
+"STK7125" "C:\WorkSpace\shc\STK7125\STK7125" "C:\WorkSpace\shc\STK7125\STK7125\STK7125.hwp" "SuperH RISC engine" "Hitachi SuperH Standard" "Empty Application" 
+[INFORMATION]
+"No project information available" 
+[TOOL_CHAIN]
+"Hitachi SuperH RISC engine Standard Toolchain" "8.0.0.0" 
+[CONFIGURATIONS]
+"Debug" "C:\WorkSpace\shc\STK7125\STK7125\Debug" 
+"Release" "C:\WorkSpace\shc\STK7125\STK7125\Release" 
+[BUILD_PHASES]
+"Hitachi SH C/C++ Library Generator" 1 
+"Hitachi SH C/C++ Compiler" 1 
+"Hitachi SH Assembler" 1 
+"Hitachi OptLinker" 1 
+[DEFINITION_PARSERS]
+[TOOL_ENVIRONMENT]
+[EXTENSIONS]
+"CPU information file" "CPU" 
+"Absolute file" "ABS" 
+"Stack information file" "SNI" 
+"Profile file" "PRO" 
+"C++ list file" "LPP" 
+"Linkage map file" "MAP" 
+"C++ header file" "HPP" 
+"C++ source file" "CPP" 
+"C header file" "H" 
+"C source file" "C" 
+"Hex file" "HEX" 
+"S-Record file" "MOT" 
+"Object file" "OBJ" 
+"Optimize map file" "bls" 
+"Relocatable file" "REL" 
+"Assembly source file" "SRC" 
+"Expanded assembly source file" "EXP" 
+"Preprocessed C source file" "P" 
+"C list file" "LST" 
+"Linkage symbol file" "FSY" 
+"Binary file" "BIN" 
+"Library file" "LIB" 
+"Assembly include file" "INC" 
+"Library information file" "LBP" 
+"Assembly list file" "LIS" 
+"Preprocessed C++ source file" "PP" 
+[FILE_GROUPS]
+"CPU information file" "BIN" "NONE" "" 
+"Absolute file" "BIN" "NONE" "" 
+"Stack information file" "BIN" "NONE" "" 
+"Profile file" "BIN" "NONE" "" 
+"C++ list file" "TEXT" "EDITOR" "" 
+"Linkage map file" "TEXT" "EDITOR" "" 
+"C++ header file" "TEXT" "EDITOR" "" 
+"C++ source file" "TEXT" "EDITOR" "" 
+"C header file" "TEXT" "EDITOR" "" 
+"C source file" "TEXT" "EDITOR" "" 
+"Hex file" "TEXT" "EDITOR" "" 
+"S-Record file" "TEXT" "EDITOR" "" 
+"Object file" "BIN" "NONE" "" 
+"Optimize map file" "BIN" "NONE" "" 
+"Relocatable file" "BIN" "NONE" "" 
+"Assembly source file" "TEXT" "EDITOR" "" 
+"Expanded assembly source file" "TEXT" "EDITOR" "" 
+"Preprocessed C source file" "TEXT" "EDITOR" "" 
+"C list file" "TEXT" "EDITOR" "" 
+"Linkage symbol file" "TEXT" "EDITOR" "" 
+"Binary file" "BIN" "NONE" "" 
+"Library file" "BIN" "NONE" "" 
+"Assembly include file" "TEXT" "EDITOR" "" 
+"Library information file" "TEXT" "EDITOR" "" 
+"Assembly list file" "TEXT" "EDITOR" "" 
+"Preprocessed C++ source file" "TEXT" "EDITOR" "" 
+[ASSOCIATED_APPLICATIONS]
+[TOOLCHAIN_PHASE]
+"Hitachi SH C/C++ Library Generator" 
+"Hitachi SH C/C++ Compiler" 
+"Hitachi SH Assembler" 
+"Hitachi OptLinker" 
+[UTILITY_PHASE]
+[CUSTOM_PHASES]
+[CUSTOM_PHASE_INPUT_GROUP]
+[BUILD_ORDER]
+"Hitachi SH C/C++ Library Generator" 1 
+"Hitachi SH C/C++ Compiler" 1 
+"Hitachi SH Assembler" 1 
+"Hitachi OptLinker" 1 
+[BUILD_PHASE_DETAILS]
+"Hitachi SH C/C++ Library Generator" "" 0 
+"Hitachi SH C/C++ Compiler" "C source file|C++ source file" 1 
+"Hitachi SH Assembler" "Assembly source file|Linkage symbol file" 1 
+"Hitachi OptLinker" "Object file|Library file|Relocatable file" 0 
+[BUILD_FILE_ORDER_C++ source file]
+"Hitachi SH C/C++ Compiler" 1 
+[BUILD_FILE_ORDER_C source file]
+"Hitachi SH C/C++ Compiler" 1 
+[BUILD_FILE_ORDER_Assembly source file]
+"Hitachi SH Assembler" 1 
+[BUILD_FILE_ORDER_Linkage symbol file]
+"Hitachi SH Assembler" 1 
+[SCRAP]
+"Project Generator Setup File" "$(PROJDIR)\STK7125.pgs" 
+[MAPPINGS]
+"Library file" "Hitachi OptLinker" "Hitachi SH C/C++ Library Generator" 
+"Assembly source file" "Hitachi SH Assembler" "Hitachi SH C/C++ Compiler" 
+"Object file" "Hitachi OptLinker" "Hitachi SH C/C++ Compiler" 
+"Object file" "Hitachi OptLinker" "Hitachi SH Assembler" 
+[PROJECT_FILES]
+"C:\WorkSpace\shc\STK7125\STK7125\src\7125S.H" "User" "C header file" 0 
+"C:\WorkSpace\shc\STK7125\STK7125\src\boot.c" "User" "C source file" 0 
+"C:\WorkSpace\shc\STK7125\STK7125\src\common.h" "User" "C header file" 0 
+"C:\WorkSpace\shc\STK7125\STK7125\src\main.c" "User" "C source file" 0 
+"C:\WorkSpace\shc\STK7125\STK7125\src\sci.c" "User" "C source file" 0 
+"C:\WorkSpace\shc\STK7125\STK7125\src\sci.h" "User" "C header file" 0 
+"C:\WorkSpace\shc\STK7125\STK7125\src\section.src" "User" "Assembly source file" 0 
+"C:\WorkSpace\shc\STK7125\STK7125\src\timer.c" "User" "C source file" 0 
+"C:\WorkSpace\shc\STK7125\STK7125\src\timer.h" "User" "C header file" 0 
+"C:\WorkSpace\shc\STK7125\STK7125\src\vector.c" "User" "C source file" 0 
+[FOLDER]
+"C source file" "C source file" 
+"C header file" "C header file" 
+"Assembly source file" "Assembly source file" 
+[GENERAL_DATA_PROJECT]
+[ON_DEMAND_COMPONENTS_LOADED]
+[SYNC_SESSION_NAMES]
+[SESSIONS]
+"DefaultSession" "C:\WorkSpace\shc\STK7125\STK7125\DefaultSession.hsf" 0 
+[GENERAL_DATA_SESSION_DefaultSession]
+[OPTIONS_Debug_Hitachi SH C/C++ Library Generator]
+"Single Shot" "0452dbb9e2768c10" 1 
+[OPTIONS_Debug_Hitachi SH C/C++ Compiler]
+"C:\WorkSpace\shc\STK7125\STK7125\src\boot.c" "0452dbb9e2768c10" 2 
+"C:\WorkSpace\shc\STK7125\STK7125\src\timer.c" "0452dbb9e2768c10" 2 
+"C:\WorkSpace\shc\STK7125\STK7125\src\sci.c" "0452dbb9e2768c10" 2 
+"C++ source file" "0452dbb9e2768c10" 2 
+"C source file" "0452dbb9e2768c10" 2 
+"C:\WorkSpace\shc\STK7125\STK7125\src\main.c" "0452dbb9e2768c10" 2 
+"C:\WorkSpace\shc\STK7125\STK7125\src\vector.c" "0452dbb9e2768c10" 2 
+[OPTIONS_Debug_Hitachi SH Assembler]
+"Assembly source file" "0bbb4e3a02768c10" 3 
+"C:\WorkSpace\shc\STK7125\STK7125\src\section.src" "0000000000000000" 3 
+"Linkage symbol file" "0bbb4e3a02768c10" 3 
+[OPTIONS_Debug_Hitachi OptLinker]
+"Single Shot" "0452dbb9e2768c10" 4 
+[OPTIONS_Debug]
+"" 0 
+"[V|VERSION|6] [S|MODE|BUILD/CHANGED] [S|EXISTOUTPUTPATH|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [B|RUNTIME|1] [B|NEW|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [B|OPTIMIZE|0] [B|GOPTIMIZE|1] [I|INLINE|20] [S|CASE|TABLE] [S|SHIFT|INLINE] [S|BLOCKCOPY|INLINE] [S|OPT_RANGE|ALL] [I|MAX_UNROLL|1] [S|CPU|SH2]
+" 1 
+"[V|VERSION|6] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|DEBUG|1] [B|LIST|0] [B|OPTIMIZE|0] [I|INLINE|20] [S|CASE|TABLE] [S|SHIFT|INLINE] [S|BLOCKCOPY|INLINE] [S|OPT_RANGE|ALL] [I|MAX_UNROLL|1] [B|MACSAVE|0] [S|CPU|SH2] [B|CHGINCPATH|1]
+" 2 
+"[V|VERSION|6] [B|DEBUG|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LIST|0] [B|CHGINCPATH|1] [B|ERRORPATH|1] [S|CPU|SH2] [S|ENDIAN|BIG] [S|ROUND|ZERO] [B|DENORMALIZE|0]" 3 
+"[V|VERSION|6] [S|FORM|STYPE] [B|DEBUG|1] [S|ROM|(D,R)] [B|LIST|1] [S|LIST|^"$(CONFIGDIR)\$(PROJECTNAME).map^"] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).mot^"] [I|SPACE|^"FF^"] [B|OPTIMIZE|0] [I|CACHESIZE|00008] [I|CACHELINE|00020] [S|START|CVECTTBL,PBOOT,P,C,D(0FFFFA000)|B,R(0FFFFBC80)|BSTACK(0FFFFC000)]
+" 4 
+[OPTIONS_Release_Hitachi SH C/C++ Library Generator]
+"Single Shot" "0c8dda8d22768c10" 1 
+[OPTIONS_Release_Hitachi SH C/C++ Compiler]
+"C:\WorkSpace\shc\STK7125\STK7125\src\boot.c" "0396fa4522768c10" 2 
+"C:\WorkSpace\shc\STK7125\STK7125\src\timer.c" "0396fa4522768c10" 2 
+"C:\WorkSpace\shc\STK7125\STK7125\src\sci.c" "0396fa4522768c10" 2 
+"C++ source file" "0396fa4522768c10" 2 
+"C source file" "0396fa4522768c10" 2 
+"C:\WorkSpace\shc\STK7125\STK7125\src\main.c" "0396fa4522768c10" 2 
+"C:\WorkSpace\shc\STK7125\STK7125\src\vector.c" "0396fa4522768c10" 2 
+[OPTIONS_Release_Hitachi SH Assembler]
+"Assembly source file" "0bbb4e3a02768c10" 3 
+"C:\WorkSpace\shc\STK7125\STK7125\src\section.src" "0000000000000000" 3 
+"Linkage symbol file" "0bbb4e3a02768c10" 3 
+[OPTIONS_Release_Hitachi OptLinker]
+"Single Shot" "0c8dda8d22768c10" 4 
+[OPTIONS_Release]
+"" 0 
+"[V|VERSION|6] [S|MODE|BUILD/CHANGED] [S|EXISTOUTPUTPATH|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [B|RUNTIME|1] [B|NEW|1] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(PROJECTNAME).lib^"] [I|INLINE|20] [S|OPT_RANGE|ALL] [I|MAX_UNROLL|1] [S|CPU|SH2]
+" 1 
+"[V|VERSION|6] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|DEBUG|1] [B|LIST|0] [B|OPTIMIZE|0] [I|INLINE|20] [S|CASE|TABLE] [S|SHIFT|INLINE] [S|BLOCKCOPY|INLINE] [S|OPT_RANGE|ALL] [I|MAX_UNROLL|1] [S|CPU|SH2] [B|CHGINCPATH|1]
+" 2 
+"[V|VERSION|6] [B|DEBUG|0] [S|OUTPUTPATH|^"$(CONFIGDIR)\$(FILELEAF).obj^"] [B|LIST|0] [B|CHGINCPATH|1] [B|ERRORPATH|1] [S|CPU|SH2] [S|ENDIAN|BIG] [S|ROUND|ZERO] [B|DENORMALIZE|0]" 3 
+"[V|VERSION|6] [S|FORM|STYPE] [B|DEBUG|1] [S|ROM|(D,R)] [B|LIST|1] [S|LIST|^"$(CONFIGDIR)\$(PROJECTNAME).map^"] [S|OUTPUT|^"$(CONFIGDIR)\$(PROJECTNAME).mot^"] [I|SPACE|^"FF^"] [B|OPTIMIZE|0] [I|CACHESIZE|00008] [I|CACHELINE|00020] [S|START|CVECTTBL,PBOOT,P,C,D(00)|B,R(0FFFFA000)|BSTACK(0FFFFC000)]
+" 4 
+[SESSION_DATA_CONFIGURATION_SESSION_Debug_DefaultSession]
+"MEMORY_MAPPING_OPTIONS" "" 
+[SESSION_DATA_CONFIGURATION_SESSION_Release_DefaultSession]
+"MEMORY_MAPPING_OPTIONS" "" 
+[SYNTAX_COLOURING_ATTRIBUTES]
+"(Default)" "COMMENTBLOCKSTART" "" 
+"(Default)" "COMMENTBLOCKEND" "" 
+"(Default)" "LINECOMMENT" "" 
+"(Default)" "NOCASE" "OFF" 
+"(Default)" "NOQUOTES" "OFF" 
+"editordefault" "COMMENTBLOCKSTART" "" 
+"editordefault" "COMMENTBLOCKEND" "" 
+"editordefault" "LINECOMMENT" "" 
+"editordefault" "NOCASE" "OFF" 
+"editordefault" "NOQUOTES" "OFF" 
+"C++ list file" "COMMENTBLOCKSTART" "/*" 
+"C++ list file" "COMMENTBLOCKEND" "*/" 
+"C++ list file" "LINECOMMENT" "//" 
+"C++ list file" "NOCASE" "OFF" 
+"C++ list file" "NOQUOTES" "OFF" 
+"Linkage map file" "COMMENTBLOCKSTART" "" 
+"Linkage map file" "COMMENTBLOCKEND" "" 
+"Linkage map file" "LINECOMMENT" "" 
+"Linkage map file" "NOCASE" "OFF" 
+"Linkage map file" "NOQUOTES" "OFF" 
+"C++ header file" "COMMENTBLOCKSTART" "/*" 
+"C++ header file" "COMMENTBLOCKEND" "*/" 
+"C++ header file" "LINECOMMENT" "//" 
+"C++ header file" "NOCASE" "OFF" 
+"C++ header file" "NOQUOTES" "OFF" 
+"C++ source file" "COMMENTBLOCKSTART" "/*" 
+"C++ source file" "COMMENTBLOCKEND" "*/" 
+"C++ source file" "LINECOMMENT" "//" 
+"C++ source file" "NOCASE" "OFF" 
+"C++ source file" "NOQUOTES" "OFF" 
+"C header file" "COMMENTBLOCKSTART" "/*" 
+"C header file" "COMMENTBLOCKEND" "*/" 
+"C header file" "LINECOMMENT" "//" 
+"C header file" "NOCASE" "OFF" 
+"C header file" "NOQUOTES" "OFF" 
+"C source file" "COMMENTBLOCKSTART" "/*" 
+"C source file" "COMMENTBLOCKEND" "*/" 
+"C source file" "LINECOMMENT" "//" 
+"C source file" "NOCASE" "OFF" 
+"C source file" "NOQUOTES" "OFF" 
+"Hex file" "COMMENTBLOCKSTART" "" 
+"Hex file" "COMMENTBLOCKEND" "" 
+"Hex file" "LINECOMMENT" "" 
+"Hex file" "NOCASE" "OFF" 
+"Hex file" "NOQUOTES" "OFF" 
+"S-Record file" "COMMENTBLOCKSTART" "" 
+"S-Record file" "COMMENTBLOCKEND" "" 
+"S-Record file" "LINECOMMENT" "" 
+"S-Record file" "NOCASE" "OFF" 
+"S-Record file" "NOQUOTES" "OFF" 
+"Assembly source file" "COMMENTBLOCKSTART" "" 
+"Assembly source file" "COMMENTBLOCKEND" "" 
+"Assembly source file" "LINECOMMENT" ";" 
+"Assembly source file" "NOCASE" "ON" 
+"Assembly source file" "NOQUOTES" "OFF" 
+"Expanded assembly source file" "COMMENTBLOCKSTART" "" 
+"Expanded assembly source file" "COMMENTBLOCKEND" "" 
+"Expanded assembly source file" "LINECOMMENT" ";" 
+"Expanded assembly source file" "NOCASE" "ON" 
+"Expanded assembly source file" "NOQUOTES" "OFF" 
+"Preprocessed C source file" "COMMENTBLOCKSTART" "/*" 
+"Preprocessed C source file" "COMMENTBLOCKEND" "*/" 
+"Preprocessed C source file" "LINECOMMENT" "//" 
+"Preprocessed C source file" "NOCASE" "OFF" 
+"Preprocessed C source file" "NOQUOTES" "OFF" 
+"C list file" "COMMENTBLOCKSTART" "/*" 
+"C list file" "COMMENTBLOCKEND" "*/" 
+"C list file" "LINECOMMENT" "//" 
+"C list file" "NOCASE" "OFF" 
+"C list file" "NOQUOTES" "OFF" 
+"Linkage symbol file" "COMMENTBLOCKSTART" "" 
+"Linkage symbol file" "COMMENTBLOCKEND" "" 
+"Linkage symbol file" "LINECOMMENT" ";" 
+"Linkage symbol file" "NOCASE" "ON" 
+"Linkage symbol file" "NOQUOTES" "OFF" 
+"Assembly include file" "COMMENTBLOCKSTART" "" 
+"Assembly include file" "COMMENTBLOCKEND" "" 
+"Assembly include file" "LINECOMMENT" ";" 
+"Assembly include file" "NOCASE" "ON" 
+"Assembly include file" "NOQUOTES" "OFF" 
+"Library information file" "COMMENTBLOCKSTART" "" 
+"Library information file" "COMMENTBLOCKEND" "" 
+"Library information file" "LINECOMMENT" "" 
+"Library information file" "NOCASE" "OFF" 
+"Library information file" "NOQUOTES" "OFF" 
+"Assembly list file" "COMMENTBLOCKSTART" "" 
+"Assembly list file" "COMMENTBLOCKEND" "" 
+"Assembly list file" "LINECOMMENT" ";" 
+"Assembly list file" "NOCASE" "ON" 
+"Assembly list file" "NOQUOTES" "OFF" 
+"Preprocessed C++ source file" "COMMENTBLOCKSTART" "/*" 
+"Preprocessed C++ source file" "COMMENTBLOCKEND" "*/" 
+"Preprocessed C++ source file" "LINECOMMENT" "//" 
+"Preprocessed C++ source file" "NOCASE" "OFF" 
+"Preprocessed C++ source file" "NOQUOTES" "OFF" 
+[SYNTAX_COLOURING_CATEGORIES]
+"(Default)" "Comments" "SYSTEM" "SYSTEM" "" 
+"(Default)" "Selected Text" "WHITE" "BLACK" "" 
+"(Default)" "Text" "SYSTEM" "SYSTEM" "" 
+"editordefault" "Comments" "SYSTEM" "SYSTEM" "" 
+"editordefault" "Selected Text" "WHITE" "BLACK" "" 
+"editordefault" "Text" "SYSTEM" "SYSTEM" "" 
+"C++ list file" "Comments" "DARKGREEN" "SYSTEM" "" 
+"C++ list file" "Selected Text" "WHITE" "BLACK" "" 
+"C++ list file" "Text" "BLACK" "SYSTEM" "" 
+"C++ list file" "PreProcessor" "BLUE" "SYSTEM" "#define|#undef|#include|#if|#ifdef|#ifndef|#else|#endif|#elif|#line|#error|#pragma" 
+"C++ list file" "Control" "RED" "SYSTEM" "break|case|catch|continue|default|do|else|for|goto|if|return|switch|throw|try|while" 
+"C++ list file" "Declaration" "BLUE" "SYSTEM" "asm|auto|bool|char|class|const|double|enum|explicit|extern|float|friend|inline|int|long|mutable|namespace|private|protected|public|register|short|signed|static|struct|template|typedef|typename|union|export|unsigned|using|virtual|void|volatile|wchar_t" 
+"C++ list file" "Operator" "CYAN" "SYSTEM" "const_cast|delete|dynamic_cast|new|operator|reinterpret_cast|sizeof|static_cast|typeid" 
+"C++ list file" "Value" "DARKYELLOW" "SYSTEM" "false|true|this" 
+"Linkage map file" "Comments" "SYSTEM" "SYSTEM" "" 
+"Linkage map file" "Selected Text" "WHITE" "BLACK" "" 
+"Linkage map file" "Text" "SYSTEM" "SYSTEM" "" 
+"C++ header file" "Comments" "DARKGREEN" "SYSTEM" "" 
+"C++ header file" "Selected Text" "WHITE" "BLACK" "" 
+"C++ header file" "Text" "BLACK" "SYSTEM" "" 
+"C++ header file" "PreProcessor" "BLUE" "SYSTEM" "#define|#undef|#include|#if|#ifdef|#ifndef|#else|#endif|#elif|#line|#error|#pragma" 
+"C++ header file" "Control" "RED" "SYSTEM" "break|case|catch|continue|default|do|else|for|goto|if|return|switch|throw|try|while" 
+"C++ header file" "Declaration" "BLUE" "SYSTEM" "asm|auto|bool|char|class|const|double|enum|explicit|extern|float|friend|inline|int|long|mutable|namespace|private|protected|public|register|short|signed|static|struct|template|typedef|typename|union|export|unsigned|using|virtual|void|volatile|wchar_t" 
+"C++ header file" "Operator" "CYAN" "SYSTEM" "const_cast|delete|dynamic_cast|new|operator|reinterpret_cast|sizeof|static_cast|typeid" 
+"C++ header file" "Value" "DARKYELLOW" "SYSTEM" "false|true|this" 
+"C++ source file" "Comments" "DARKGREEN" "SYSTEM" "" 
+"C++ source file" "Selected Text" "WHITE" "BLACK" "" 
+"C++ source file" "Text" "BLACK" "SYSTEM" "" 
+"C++ source file" "PreProcessor" "BLUE" "SYSTEM" "#define|#undef|#include|#if|#ifdef|#ifndef|#else|#endif|#elif|#line|#error|#pragma" 
+"C++ source file" "Control" "RED" "SYSTEM" "break|case|catch|continue|default|do|else|for|goto|if|return|switch|throw|try|while" 
+"C++ source file" "Declaration" "BLUE" "SYSTEM" "asm|auto|bool|char|class|const|double|enum|explicit|extern|float|friend|inline|int|long|mutable|namespace|private|protected|public|register|short|signed|static|struct|template|typedef|typename|union|export|unsigned|using|virtual|void|volatile|wchar_t" 
+"C++ source file" "Operator" "CYAN" "SYSTEM" "const_cast|delete|dynamic_cast|new|operator|reinterpret_cast|sizeof|static_cast|typeid" 
+"C++ source file" "Value" "DARKYELLOW" "SYSTEM" "false|true|this" 
+"C header file" "Comments" "DARKGREEN" "SYSTEM" "" 
+"C header file" "Selected Text" "WHITE" "BLACK" "" 
+"C header file" "Text" "BLACK" "SYSTEM" "" 
+"C header file" "PreProcessor" "BLUE" "SYSTEM" "#define|#undef|#include|#if|#ifdef|#ifndef|#else|#endif|#elif|#line|#error|#pragma" 
+"C header file" "Control" "RED" "SYSTEM" "break|case|continue|default|do|else|for|goto|if|return|switch|while" 
+"C header file" "Declaration" "BLUE" "SYSTEM" "auto|char|const|double|enum|extern|float|int|long|register|short|signed|static|struct|typedef|union|unsigned|void|volatile" 
+"C header file" "Operator" "CYAN" "SYSTEM" "sizeof" 
+"C source file" "Comments" "DARKGREEN" "SYSTEM" "" 
+"C source file" "Selected Text" "WHITE" "BLACK" "" 
+"C source file" "Text" "BLACK" "SYSTEM" "" 
+"C source file" "PreProcessor" "BLUE" "SYSTEM" "#define|#undef|#include|#if|#ifdef|#ifndef|#else|#endif|#elif|#line|#error|#pragma" 
+"C source file" "Control" "RED" "SYSTEM" "break|case|continue|default|do|else|for|goto|if|return|switch|while" 
+"C source file" "Declaration" "BLUE" "SYSTEM" "auto|char|const|double|enum|extern|float|int|long|register|short|signed|static|struct|typedef|union|unsigned|void|volatile" 
+"C source file" "Operator" "CYAN" "SYSTEM" "sizeof" 
+"Hex file" "Comments" "SYSTEM" "SYSTEM" "" 
+"Hex file" "Selected Text" "WHITE" "BLACK" "" 
+"Hex file" "Text" "SYSTEM" "SYSTEM" "" 
+"S-Record file" "Comments" "SYSTEM" "SYSTEM" "" 
+"S-Record file" "Selected Text" "WHITE" "BLACK" "" 
+"S-Record file" "Text" "SYSTEM" "SYSTEM" "" 
+"Assembly source file" "Comments" "DARKGREEN" "SYSTEM" "" 
+"Assembly source file" "Selected Text" "WHITE" "BLACK" "" 
+"Assembly source file" "Text" "BLACK" "SYSTEM" "" 
+"Assembly source file" "PreProcessor" "BLUE" "SYSTEM" ".INCLUDE|.ASSIGNA|.ASSIGNC|.DEFINE|.AIF|.AELIF|.AELSE|.AENDI|.AIFDEF|.AREPEAT|.AENDR|.AWHILE|.AENDW|.AERROR|.ALIMIT|.MACRO|.ENDM|.EXITM|.LEN|.INSTR|.SUBSTR" 
+"Assembly source file" "Directive" "RED" "SYSTEM" ".CPU|.EXPORT|.IMPORT|.GLOBAL|.OUTPUT|.DEBUG|.ENDIAN|.LINE|.DISPSIZE|.PRINT|.LIST|.FORM|.HEADING|.PAGE|.SPACE|.PROGRAM|.RADIX|.END|.POOL|.NOPOOL|.IF|.IF.B|.IF.W|.IF.L|.ELSE|.ENDI|.SWITCH|.SWITCH.B|.SWITCH.W|.SWITCH.L|.CASE|.BREAK|.OTHERS|.ENDS|.FOR|.FOR.B|.FOR.W|.FOR.L|.FORU|.FORU.B|.FORU.W|.FORU.L|.ENDF|.WHILE|.WHILE.B|.WHILE.W|.WHILE.L|.ENDW|.REPEAT|.UNTIL|.UNTIL.B|.UNTIL.W|.UNTIL.L|.CONTINUE" 
+"Assembly source file" "Data" "PURPLE" "SYSTEM" ".SECTION|.ORG|.ALIGN|.EQU|.ASSIGN|.REG|.FREG|.BEQU|.DATA|.DATA.B|.DATA.W|.DATA.L|.DATAB|.DATAB.B|.DATAB.W|.DATAB.L|.SDATA|.SDATAB|.SDATAC|.SDATAZ|.FDATA|.FDATA.S|.FDATAB|.FDATAB.S|.XDATA|.XDATA.W|.XDATA.L|.RES|.RES.B|.RES.W|.RES.L|.SRES|.SRESC|.SRESZ|.FRES|.FRES.S" 
+"Expanded assembly source file" "Comments" "DARKGREEN" "SYSTEM" "" 
+"Expanded assembly source file" "Selected Text" "WHITE" "BLACK" "" 
+"Expanded assembly source file" "Text" "BLACK" "SYSTEM" "" 
+"Expanded assembly source file" "PreProcessor" "BLUE" "SYSTEM" ".INCLUDE|.ASSIGNA|.ASSIGNC|.DEFINE|.AIF|.AELIF|.AELSE|.AENDI|.AIFDEF|.AREPEAT|.AENDR|.AWHILE|.AENDW|.AERROR|.ALIMIT|.MACRO|.ENDM|.EXITM|.LEN|.INSTR|.SUBSTR" 
+"Expanded assembly source file" "Directive" "RED" "SYSTEM" ".CPU|.EXPORT|.IMPORT|.GLOBAL|.OUTPUT|.DEBUG|.ENDIAN|.LINE|.DISPSIZE|.PRINT|.LIST|.FORM|.HEADING|.PAGE|.SPACE|.PROGRAM|.RADIX|.END|.POOL|.NOPOOL|.IF|.IF.B|.IF.W|.IF.L|.ELSE|.ENDI|.SWITCH|.SWITCH.B|.SWITCH.W|.SWITCH.L|.CASE|.BREAK|.OTHERS|.ENDS|.FOR|.FOR.B|.FOR.W|.FOR.L|.FORU|.FORU.B|.FORU.W|.FORU.L|.ENDF|.WHILE|.WHILE.B|.WHILE.W|.WHILE.L|.ENDW|.REPEAT|.UNTIL|.UNTIL.B|.UNTIL.W|.UNTIL.L|.CONTINUE" 
+"Expanded assembly source file" "Data" "PURPLE" "SYSTEM" ".SECTION|.ORG|.ALIGN|.EQU|.ASSIGN|.REG|.FREG|.BEQU|.DATA|.DATA.B|.DATA.W|.DATA.L|.DATAB|.DATAB.B|.DATAB.W|.DATAB.L|.SDATA|.SDATAB|.SDATAC|.SDATAZ|.FDATA|.FDATA.S|.FDATAB|.FDATAB.S|.XDATA|.XDATA.W|.XDATA.L|.RES|.RES.B|.RES.W|.RES.L|.SRES|.SRESC|.SRESZ|.FRES|.FRES.S" 
+"Preprocessed C source file" "Comments" "DARKGREEN" "SYSTEM" "" 
+"Preprocessed C source file" "Selected Text" "WHITE" "BLACK" "" 
+"Preprocessed C source file" "Text" "BLACK" "SYSTEM" "" 
+"Preprocessed C source file" "PreProcessor" "BLUE" "SYSTEM" "#define|#undef|#include|#if|#ifdef|#ifndef|#else|#endif|#elif|#line|#error|#pragma" 
+"Preprocessed C source file" "Control" "RED" "SYSTEM" "break|case|continue|default|do|else|for|goto|if|return|switch|while" 
+"Preprocessed C source file" "Declaration" "BLUE" "SYSTEM" "auto|char|const|double|enum|extern|float|int|long|register|short|signed|static|struct|typedef|union|unsigned|void|volatile" 
+"Preprocessed C source file" "Operator" "CYAN" "SYSTEM" "sizeof" 
+"C list file" "Comments" "DARKGREEN" "SYSTEM" "" 
+"C list file" "Selected Text" "WHITE" "BLACK" "" 
+"C list file" "Text" "BLACK" "SYSTEM" "" 
+"C list file" "PreProcessor" "BLUE" "SYSTEM" "#define|#undef|#include|#if|#ifdef|#ifndef|#else|#endif|#elif|#line|#error|#pragma" 
+"C list file" "Control" "RED" "SYSTEM" "break|case|continue|default|do|else|for|goto|if|return|switch|while" 
+"C list file" "Declaration" "BLUE" "SYSTEM" "auto|char|const|double|enum|extern|float|int|long|register|short|signed|static|struct|typedef|union|unsigned|void|volatile" 
+"C list file" "Operator" "CYAN" "SYSTEM" "sizeof" 
+"Linkage symbol file" "Comments" "DARKGREEN" "SYSTEM" "" 
+"Linkage symbol file" "Selected Text" "WHITE" "BLACK" "" 
+"Linkage symbol file" "Text" "BLACK" "SYSTEM" "" 
+"Linkage symbol file" "PreProcessor" "BLUE" "SYSTEM" ".INCLUDE|.ASSIGNA|.ASSIGNC|.DEFINE|.AIF|.AELIF|.AELSE|.AENDI|.AIFDEF|.AREPEAT|.AENDR|.AWHILE|.AENDW|.AERROR|.ALIMIT|.MACRO|.ENDM|.EXITM|.LEN|.INSTR|.SUBSTR" 
+"Linkage symbol file" "Directive" "RED" "SYSTEM" ".CPU|.EXPORT|.IMPORT|.GLOBAL|.OUTPUT|.DEBUG|.ENDIAN|.LINE|.DISPSIZE|.PRINT|.LIST|.FORM|.HEADING|.PAGE|.SPACE|.PROGRAM|.RADIX|.END|.POOL|.NOPOOL|.IF|.IF.B|.IF.W|.IF.L|.ELSE|.ENDI|.SWITCH|.SWITCH.B|.SWITCH.W|.SWITCH.L|.CASE|.BREAK|.OTHERS|.ENDS|.FOR|.FOR.B|.FOR.W|.FOR.L|.FORU|.FORU.B|.FORU.W|.FORU.L|.ENDF|.WHILE|.WHILE.B|.WHILE.W|.WHILE.L|.ENDW|.REPEAT|.UNTIL|.UNTIL.B|.UNTIL.W|.UNTIL.L|.CONTINUE" 
+"Linkage symbol file" "Data" "PURPLE" "SYSTEM" ".SECTION|.ORG|.ALIGN|.EQU|.ASSIGN|.REG|.FREG|.BEQU|.DATA|.DATA.B|.DATA.W|.DATA.L|.DATAB|.DATAB.B|.DATAB.W|.DATAB.L|.SDATA|.SDATAB|.SDATAC|.SDATAZ|.FDATA|.FDATA.S|.FDATAB|.FDATAB.S|.XDATA|.XDATA.W|.XDATA.L|.RES|.RES.B|.RES.W|.RES.L|.SRES|.SRESC|.SRESZ|.FRES|.FRES.S" 
+"Assembly include file" "Comments" "DARKGREEN" "SYSTEM" "" 
+"Assembly include file" "Selected Text" "WHITE" "BLACK" "" 
+"Assembly include file" "Text" "BLACK" "SYSTEM" "" 
+"Assembly include file" "PreProcessor" "BLUE" "SYSTEM" ".INCLUDE|.ASSIGNA|.ASSIGNC|.DEFINE|.AIF|.AELIF|.AELSE|.AENDI|.AIFDEF|.AREPEAT|.AENDR|.AWHILE|.AENDW|.AERROR|.ALIMIT|.MACRO|.ENDM|.EXITM|.LEN|.INSTR|.SUBSTR" 
+"Assembly include file" "Directive" "RED" "SYSTEM" ".CPU|.EXPORT|.IMPORT|.GLOBAL|.OUTPUT|.DEBUG|.ENDIAN|.LINE|.DISPSIZE|.PRINT|.LIST|.FORM|.HEADING|.PAGE|.SPACE|.PROGRAM|.RADIX|.END|.POOL|.NOPOOL|.IF|.IF.B|.IF.W|.IF.L|.ELSE|.ENDI|.SWITCH|.SWITCH.B|.SWITCH.W|.SWITCH.L|.CASE|.BREAK|.OTHERS|.ENDS|.FOR|.FOR.B|.FOR.W|.FOR.L|.FORU|.FORU.B|.FORU.W|.FORU.L|.ENDF|.WHILE|.WHILE.B|.WHILE.W|.WHILE.L|.ENDW|.REPEAT|.UNTIL|.UNTIL.B|.UNTIL.W|.UNTIL.L|.CONTINUE" 
+"Assembly include file" "Data" "PURPLE" "SYSTEM" ".SECTION|.ORG|.ALIGN|.EQU|.ASSIGN|.REG|.FREG|.BEQU|.DATA|.DATA.B|.DATA.W|.DATA.L|.DATAB|.DATAB.B|.DATAB.W|.DATAB.L|.SDATA|.SDATAB|.SDATAC|.SDATAZ|.FDATA|.FDATA.S|.FDATAB|.FDATAB.S|.XDATA|.XDATA.W|.XDATA.L|.RES|.RES.B|.RES.W|.RES.L|.SRES|.SRESC|.SRESZ|.FRES|.FRES.S" 
+"Library information file" "Comments" "SYSTEM" "SYSTEM" "" 
+"Library information file" "Selected Text" "WHITE" "BLACK" "" 
+"Library information file" "Text" "SYSTEM" "SYSTEM" "" 
+"Assembly list file" "Comments" "DARKGREEN" "SYSTEM" "" 
+"Assembly list file" "Selected Text" "WHITE" "BLACK" "" 
+"Assembly list file" "Text" "BLACK" "SYSTEM" "" 
+"Assembly list file" "PreProcessor" "BLUE" "SYSTEM" ".INCLUDE|.ASSIGNA|.ASSIGNC|.DEFINE|.AIF|.AELIF|.AELSE|.AENDI|.AIFDEF|.AREPEAT|.AENDR|.AWHILE|.AENDW|.AERROR|.ALIMIT|.MACRO|.ENDM|.EXITM|.LEN|.INSTR|.SUBSTR" 
+"Assembly list file" "Directive" "RED" "SYSTEM" ".CPU|.EXPORT|.IMPORT|.GLOBAL|.OUTPUT|.DEBUG|.ENDIAN|.LINE|.DISPSIZE|.PRINT|.LIST|.FORM|.HEADING|.PAGE|.SPACE|.PROGRAM|.RADIX|.END|.POOL|.NOPOOL|.IF|.IF.B|.IF.W|.IF.L|.ELSE|.ENDI|.SWITCH|.SWITCH.B|.SWITCH.W|.SWITCH.L|.CASE|.BREAK|.OTHERS|.ENDS|.FOR|.FOR.B|.FOR.W|.FOR.L|.FORU|.FORU.B|.FORU.W|.FORU.L|.ENDF|.WHILE|.WHILE.B|.WHILE.W|.WHILE.L|.ENDW|.REPEAT|.UNTIL|.UNTIL.B|.UNTIL.W|.UNTIL.L|.CONTINUE" 
+"Assembly list file" "Data" "PURPLE" "SYSTEM" ".SECTION|.ORG|.ALIGN|.EQU|.ASSIGN|.REG|.FREG|.BEQU|.DATA|.DATA.B|.DATA.W|.DATA.L|.DATAB|.DATAB.B|.DATAB.W|.DATAB.L|.SDATA|.SDATAB|.SDATAC|.SDATAZ|.FDATA|.FDATA.S|.FDATAB|.FDATAB.S|.XDATA|.XDATA.W|.XDATA.L|.RES|.RES.B|.RES.W|.RES.L|.SRES|.SRESC|.SRESZ|.FRES|.FRES.S" 
+"Preprocessed C++ source file" "Comments" "DARKGREEN" "SYSTEM" "" 
+"Preprocessed C++ source file" "Selected Text" "WHITE" "BLACK" "" 
+"Preprocessed C++ source file" "Text" "BLACK" "SYSTEM" "" 
+"Preprocessed C++ source file" "PreProcessor" "BLUE" "SYSTEM" "#define|#undef|#include|#if|#ifdef|#ifndef|#else|#endif|#elif|#line|#error|#pragma" 
+"Preprocessed C++ source file" "Control" "RED" "SYSTEM" "break|case|catch|continue|default|do|else|for|goto|if|return|switch|throw|try|while" 
+"Preprocessed C++ source file" "Declaration" "BLUE" "SYSTEM" "asm|auto|bool|char|class|const|double|enum|explicit|extern|float|friend|inline|int|long|mutable|namespace|private|protected|public|register|short|signed|static|struct|template|typedef|typename|union|export|unsigned|using|virtual|void|volatile|wchar_t" 
+"Preprocessed C++ source file" "Operator" "CYAN" "SYSTEM" "const_cast|delete|dynamic_cast|new|operator|reinterpret_cast|sizeof|static_cast|typeid" 
+"Preprocessed C++ source file" "Value" "DARKYELLOW" "SYSTEM" "false|true|this" 
+[SYNTAX_COLOURING_FILE_GROUP]
+"(Default)" "" "" "DEFAULT" 
+"editordefault" "" "" "DEFAULT" 
+"C++ list file" "Hitachi SuperH RISC engine Standard Toolchain" "8.0.0.0" "SYSTEM" 
+"Linkage map file" "" "" "USER" 
+"C++ header file" "Hitachi SuperH RISC engine Standard Toolchain" "8.0.0.0" "SYSTEM" 
+"C++ source file" "Hitachi SuperH RISC engine Standard Toolchain" "8.0.0.0" "SYSTEM" 
+"C header file" "Hitachi SuperH RISC engine Standard Toolchain" "8.0.0.0" "SYSTEM" 
+"C source file" "Hitachi SuperH RISC engine Standard Toolchain" "8.0.0.0" "SYSTEM" 
+"Hex file" "" "" "USER" 
+"S-Record file" "" "" "USER" 
+"Assembly source file" "Hitachi SuperH RISC engine Standard Toolchain" "8.0.0.0" "SYSTEM" 
+"Expanded assembly source file" "Hitachi SuperH RISC engine Standard Toolchain" "8.0.0.0" "SYSTEM" 
+"Preprocessed C source file" "Hitachi SuperH RISC engine Standard Toolchain" "8.0.0.0" "SYSTEM" 
+"C list file" "Hitachi SuperH RISC engine Standard Toolchain" "8.0.0.0" "SYSTEM" 
+"Linkage symbol file" "Hitachi SuperH RISC engine Standard Toolchain" "8.0.0.0" "SYSTEM" 
+"Assembly include file" "Hitachi SuperH RISC engine Standard Toolchain" "8.0.0.0" "SYSTEM" 
+"Library information file" "" "" "USER" 
+"Assembly list file" "Hitachi SuperH RISC engine Standard Toolchain" "8.0.0.0" "SYSTEM" 
+"Preprocessed C++ source file" "Hitachi SuperH RISC engine Standard Toolchain" "8.0.0.0" "SYSTEM" 
+[EXT_DEBUGGER_INFO]
+1 "" "" "" "^"$(CONFIGDIR)\$(PROJECTNAME).abs^"" 
+[EXCLUDED_FILES_Debug]
+[GENERAL_DATA_CONFIGURATION_Release]
+[GENERAL_DATA_CONFIGURATION_SESSION_Debug_DefaultSession]
+[GENERAL_DATA_CONFIGURATION_SESSION_Release_DefaultSession]
+[EXCLUDED_FILES_Release]
+[GENERAL_DATA_CONFIGURATION_Debug]
+[END]

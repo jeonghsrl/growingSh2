@@ -1,0 +1,20 @@
+-cpu=sh2
+-include="c:\program files\renesas\hew_001\tools\renesas\sh\9_4_0"
+-object="C:\Documents and Settings\Administrator\デスクトップ\Omnipen2ComuAll\omnipen2Comu\STK7125\Release\timer.obj"
+-debug
+-optimize=0
+-noinline
+-gbr=auto
+-case=table
+-shift=inline
+-blockcopy=inline
+-chgincpath
+-errorpath
+"C:\Documents and Settings\Administrator\デスクトップ\Omnipen2ComuAll\omnipen2Comu\STK7125\src\timer.c"
+-global_volatile=0
+-opt_range=all
+-infinite_loop=0
+-del_vacant_loop=0
+-struct_alloc=1
+-lang=c
+-nologo

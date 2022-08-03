@@ -1,0 +1,49 @@
+Optimizing Linkage Editor (V.10.00.01.000)        06-May-2011 13:14:49
+
+*** Options ***
+
+-subcommand=C:\Users\HSRL\Desktop\testPen\STK7125\Release\STK7125.hlk
+-noprelink
+-rom=D=R
+-nomessage
+-list="C:\Users\HSRL\Desktop\testPen\STK7125\Release\STK7125.map"
+-nooptimize
+-start=CVECTTBL,PBOOT,P,C,D/00,B,R/0FFFFA000,BSTACK/0FFFFC000
+-nologo
+-input="C:\Users\HSRL\Desktop\testPen\STK7125\Release\boot.obj"
+-input="C:\Users\HSRL\Desktop\testPen\STK7125\Release\control.obj"
+-input="C:\Users\HSRL\Desktop\testPen\STK7125\Release\main.obj"
+-input="C:\Users\HSRL\Desktop\testPen\STK7125\Release\motor.obj"
+-input="C:\Users\HSRL\Desktop\testPen\STK7125\Release\paraset.obj"
+-input="C:\Users\HSRL\Desktop\testPen\STK7125\Release\safefunc.obj"
+-input="C:\Users\HSRL\Desktop\testPen\STK7125\Release\sci.obj"
+-input="C:\Users\HSRL\Desktop\testPen\STK7125\Release\section.obj"
+-input="C:\Users\HSRL\Desktop\testPen\STK7125\Release\timer.obj"
+-input="C:\Users\HSRL\Desktop\testPen\STK7125\Release\trajectory.obj"
+-input="C:\Users\HSRL\Desktop\testPen\STK7125\Release\vector.obj"
+-library="C:\Users\HSRL\Desktop\testPen\STK7125\Release\STK7125.lib"
+-output="C:\Users\HSRL\Desktop\testPen\STK7125\Release\STK7125.abs"
+-end
+
+*** Error information ***
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+CVECTTBL
+                                  00000000  000003ff       400   4
+PBOOT
+                                  00000400  0000060f       210   4
+P
+                                  00000610  000039c3      33b4   4
+C
+                                  000039c4  00003bb3       1f0   4
+D
+                                  00003bb4  00003c3b        88   4
+B
+                                  ffffa000  ffffa2db       2dc   4
+R
+                                  ffffa2dc  ffffa363        88   4
+BSTACK
+                                  ffffc000  ffffc003         4   4

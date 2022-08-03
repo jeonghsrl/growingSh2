@@ -1,0 +1,20 @@
+-cpu=sh2
+-include="c:\program files\renesas\hew\tools\renesas\sh\9_4_0"
+-object="C:\Users\HSRL\Desktop\testPen\STK7125\Release\control.obj"
+-debug
+-optimize=0
+-noinline
+-gbr=auto
+-case=table
+-shift=inline
+-blockcopy=inline
+-chgincpath
+-errorpath
+"C:\Users\HSRL\Desktop\testPen\STK7125\src\control.c"
+-global_volatile=0
+-opt_range=all
+-infinite_loop=0
+-del_vacant_loop=0
+-struct_alloc=1
+-lang=c
+-nologo

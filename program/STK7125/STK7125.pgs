@@ -1,0 +1,35 @@
+; Project Generator Setup Infomation
+
+[PGS Version]
+Version=1.0
+
+[Toolchain]
+Toolchain=Hitachi SuperH Standard
+Toolchain Name=Hitachi SuperH RISC engine Standard Toolchain
+Toolchain Version=8.0.0.0
+
+[CPU]
+CPU Family=SuperH RISC engine
+CPU Series=SH-2
+CPU Type=
+Operating Mode=Not Support
+Address Space=Not Support
+Multiple=Not Support
+Divide=Not Support
+
+[Project]
+Project Name=STK7125
+Project Type=Empty Application
+
+[Stack Settings]
+Stack Pointer Address=
+Stack Size=
+Stack Section Name=
+Stack Section Address=
+Source File Name=
+Description=
+Default Stack Pointer Address=
+Default Stack Size=
+
+[Initial Settings]
+Simulator I/O=disable

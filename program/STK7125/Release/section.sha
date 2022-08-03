@@ -1,0 +1,12 @@
+"C:\Documents and Settings\Administrator\デスクトップ\Omnipen2ComuAll\omnipen2Comu\STK7125\src\section.src"
+-cpu=sh2
+-endian=big
+-round=zero
+-denormalize=off
+-nodebug
+-object="C:\Documents and Settings\Administrator\デスクトップ\Omnipen2ComuAll\omnipen2Comu\STK7125\Release\section.obj"
+-literal=pool,branch,jump,return
+-nolist
+-nologo
+-chgincpath
+-errorpath
